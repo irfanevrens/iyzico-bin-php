@@ -28,12 +28,12 @@ In this part you will find more detailed information about the fields that you a
 
 1) Request Fields
 
------------------------------------------------------------------------
-Field 		| Type/Length 		| Description
------------------------------------------------------------------------
-api_id		| AlphaNumeric/32	| Api id from iyzico account
-secret		| AlphaNumeric/32	| Secret from iyzico account
-bin 		| Numeric/6			| BIN number you want to get info about
+
+|Field 		| Type/Length 		| Description                             |
+|---------|-----------------|-----------------------------------------|
+|api_id|AlphaNumeric/32|Api id from iyzico account|
+|secret|AlphaNumeric/32|Secret from iyzico account|
+|bin|Numeric/6|BIN number you want to get info about|
 
 2) Response Fields
 
