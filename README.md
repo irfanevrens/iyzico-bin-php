@@ -28,7 +28,6 @@ In this part you will find more detailed information about the fields that you a
 
 1) Request Fields
 
-
 |Field 		| Type/Length 		| Description                             |
 |---------|-----------------|-----------------------------------------|
 |api_id|AlphaNumeric/32|Api id from iyzico account|
@@ -37,28 +36,27 @@ In this part you will find more detailed information about the fields that you a
 
 2) Response Fields
 
------------------------------------------------------------------------
-Field 		| Type/Length 		| Description
------------------------------------------------------------------------
-code 		| Numeric/4			| Numeric code representing the status of response (200 for success)
-status 		| AlphaNumeric/16	| Explanation for status
-details 	| object 			| Object containing the details
-BIN 		| Numeric/6			| The BIN number from the request
-CARD_TYPE	| AlphaNumeric/20 	| Card type (DEBIT CARD / CREDIT CARD)
-ISSUER 		| AlphaNumeric/10   | Issiuer institute (Master, Visa, ...)
-BRAND 		| AlphaNumeric/10	| The card brand (Maximum, World, ...)
+|Field 		| Type/Length 		| Description                              |
+|---------|-----------------|------------------------------------------|
+|code|Numeric/4|Numeric code representing the status of response (200 for success)|
+|status|AlphaNumeric/16|Explanation for status|
+|details|object|Object containing the details|
+|BIN|Numeric/6|The BIN number from the request|
+|CARD_TYPE|AlphaNumeric/20|Card type (DEBIT CARD / CREDIT CARD)|
+|ISSUER|AlphaNumeric/10|Issiuer institute (Master, Visa, ...)|
+|BRAND|AlphaNumeric/10|The card brand (Maximum, World, ...)|
 
 ##3.	Error Codes
 
-Error Code 		| Message														| Reason
---------------------------------------------------------------------------------------------------------------------------------------------
-888.777.901 	| Method Not Allowed											| Rather than POST request
-888.777.902 	| Currently Service Not Available. Try again after some time.	| Service not available
-888.777.903 	| Bad POST Request.												| api_id, secret, bin parameters not founded in POST request
-888.777.904 	| Bad POST Requested Params.									| api_id / secret / bin values = null
-888.777.905 	| Invalid BIN Value.											| BIN value length < 6
-888.777.906 	| Invalid Merchant.												| api_id & secret not founded/matched
-888.777.907 	| Unauthorized Merchant											| Merchant Blocked/terminated/rejected
-888.777.908 	| BIN check is disabled.										| Bin check is disabled for merchant
-888.777.909 	| Can not find Issuer for given BIN Number						| bin value not matching any issuer
-000.000.000 	| Successful detailed response									| success
+|Error Code 		| Message														| Reason
+|---------------|-----------------------------------|----------------------------------------------------------------------------------------|
+|888.777.901 	| Method Not Allowed											| Rather than POST request|
+|888.777.902 	| Currently Service Not Available. Try again after some time.	| Service not available|
+|888.777.903 	| Bad POST Request.												| api_id, secret, bin parameters not founded in POST request|
+|888.777.904 	| Bad POST Requested Params.									| api_id / secret / bin values = null|
+|888.777.905 	| Invalid BIN Value.											| BIN value length < 6|
+|888.777.906 	| Invalid Merchant.												| api_id & secret not founded/matched|
+|888.777.907 	| Unauthorized Merchant											| Merchant Blocked/terminated/rejected|
+|888.777.908 	| BIN check is disabled.										| Bin check is disabled for merchant|
+|888.777.909 	| Can not find Issuer for given BIN Number						| bin value not matching any issuer|
+|000.000.000 	| Successful detailed response									| success|
