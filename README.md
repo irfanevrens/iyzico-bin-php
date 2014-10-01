@@ -7,7 +7,7 @@ easy BIN info for out customers
 
 ##1. Introduction 
 
-We as iyzi payments know that BIN information is a valueable part of the checkout page and payment procedure. With this information the user experience on the checkout page can be enchanced greatly. This data requires careful investigation and upto date data which may be burden to handle for our customers. For this we created the BIN List Checker API for our customers.
+We as iyzico know that BIN information is a valueable part of the checkout page and payment procedure. With this information the user experience on the checkout page can be enchanced greatly. This data requires careful investigation and upto date data which may be burden to handle for our customers. For this we created the BIN List Checker API for our customers.
 
 1)	Request
 
