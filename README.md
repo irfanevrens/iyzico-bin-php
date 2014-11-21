@@ -45,6 +45,7 @@ In this part you will find more detailed information about the fields that you a
 |CARD_TYPE|AlphaNumeric/20|Card type (DEBIT CARD / CREDIT CARD)|
 |ISSUER|AlphaNumeric/10|Issiuer institute (Master, Visa, ...)|
 |BRAND|AlphaNumeric/10|The card brand (Maximum, World, ...)|
+|BANK_CODE|Numeric/3|Bank's code (70,100 , ...)|
 
 ##3.	Error Codes
 
