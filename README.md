@@ -43,7 +43,7 @@ In this part you will find more detailed information about the fields that you a
 |details|object|Object containing the details|
 |BIN|Numeric/6|The BIN number from the request|
 |CARD_TYPE|AlphaNumeric/20|Card type (DEBIT CARD / CREDIT CARD)|
-|ISSUER|AlphaNumeric/10|Issiuer institute (Master, Visa, ...)|
+|ISSUER|AlphaNumeric/10|Issuer institute (Master, Visa, ...)|
 |BRAND|AlphaNumeric/10|The card brand (Maximum, World, ...)|
 |BANK_CODE|Numeric/3|Bank's code (70,100 , ...)|
 
